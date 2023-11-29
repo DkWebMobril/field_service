@@ -54,8 +54,9 @@ class _ListUserState extends State<ListUser> {
 
 searchBox(BuildContext context) {
   return Container(
+    padding: EdgeInsets.symmetric(horizontal: 12),
     height: MediaQuery.of(context).size.height * 0.05,
-    width: MediaQuery.of(context).size.width * 0.65,
+    width: MediaQuery.of(context).size.width ,
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(30),
     ),
@@ -95,6 +96,7 @@ userList() {
   return RawScrollbar(
     thumbColor: MyTheme.primaryBlue,
     thickness: 5.0,
+
     radius: Radius.circular(10),
     thumbVisibility: true,
     trackVisibility: true,

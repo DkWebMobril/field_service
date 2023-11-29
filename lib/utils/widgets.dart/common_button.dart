@@ -24,7 +24,7 @@ class _CommonButtonState extends State<CommonButton> {
         child: Container(
           alignment: Alignment.center,
           height: MediaQuery.of(context).size.height * 0.055,
-          width: MediaQuery.of(context).size.width * 0.75,
+          width: MediaQuery.of(context).size.width * 0.72,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               color: MyTheme.primaryBlue),

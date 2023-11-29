@@ -106,9 +106,11 @@ class _ExpenseMobileBodyState extends State<ExpenseMobileBody> {
                     Icons.camera_alt_outlined,
                     size: 12,
                   ),
-                  Text(
-                    "Takephoto".tr(),
-                    style: MyStyle.medium5().s10,
+                  Expanded(
+                    child: Text(
+                      "Takephoto".tr(),
+                      style: MyStyle.medium5().s10,
+                    ),
                   ),
                   SizedBox(
                     width: MediaQuery.of(context).size.width * 0.25,

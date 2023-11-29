@@ -4,6 +4,8 @@ import 'package:field_service/modules/expense/expenseModel.dart';
 import 'package:field_service/modules/expense/expense_entry/expense_entryScreen.dart';
 import 'package:field_service/modules/expense/expense_screen.dart';
 import 'package:field_service/modules/home/dashboard.dart';
+import 'package:field_service/modules/home/home_screen/homeModel.dart';
+import 'package:field_service/modules/home/home_screen/home_screen.dart';
 import 'package:field_service/modules/otp_module/otp_model.dart';
 import 'package:field_service/modules/otp_module/otp_screen.dart';
 import 'package:field_service/modules/profile/profileModel.dart';
@@ -46,7 +48,7 @@ class RouteHelper {
       DashboardScreen.route: (_) => MultiProvider(
             providers: [
               ChangeNotifierProvider(
-                  create: (_) => ProfileModel(), child: const ProfileScreen()),
+                  create: (_) => HomeModel(), child: const HomeScreen()),
               ChangeNotifierProvider(
                   create: (_) => ProfileModel(), child: const ProfileScreen()),
               ChangeNotifierProvider(

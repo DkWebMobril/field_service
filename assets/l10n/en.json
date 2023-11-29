@@ -43,6 +43,11 @@
   "Comment": "Comment:",
   "Save" :  "Save",
   "Chat" :  "Chat",
+  "TimeEntry" :  "Time Entry",
+  "JobList" :  "Job List",
+  "ClockIn" :  "Clock In",
+  "StartBreak" :  "Start Break",
+  "ClockOut" :  "Clock Out",
   
 
 

@@ -2,6 +2,7 @@ import 'package:field_service/modules/chat/chat_screen.dart';
 import 'package:field_service/modules/expense/expense_entry/expense_entryScreen.dart';
 import 'package:field_service/modules/expense/expense_screen.dart';
 import 'package:field_service/modules/home/dashboard_widget.dart';
+import 'package:field_service/modules/home/home_screen/home_screen.dart';
 import 'package:field_service/modules/profile/profile_screen.dart';
 import 'package:field_service/utils/colors.dart';
 import 'package:field_service/utils/my_images.dart';
@@ -28,7 +29,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   }
 
   final List<Widget> _widgetOptions = <Widget>[
-    const ProfileScreen(),
+    const HomeScreen(),
     const ExpenseEntryScreen(),
     const ChatScreen(),
     const ExpenseScreen(),

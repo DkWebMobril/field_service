@@ -1,6 +1,6 @@
 import 'package:field_service/utils/essentials.dart';
 import 'package:field_service/modules/home/dashboard.dart';
-import 'package:field_service/modules/profile/profile_widget.dart';
+import 'package:field_service/modules/profile/widgets/image_widget.dart';
 import 'package:field_service/utils/helper.dart';
 import 'package:field_service/utils/my_images.dart';
 import 'package:field_service/utils/widgets.dart/common_widgets.dart';
